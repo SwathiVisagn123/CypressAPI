@@ -1,0 +1,25 @@
+{
+  "name": "cypressapi",
+  "version": "1.0.0",
+  "description": "API Automation using Cypress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwathiVisagn123/CypressAPI.git"
+  },
+  "author": "Swathika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwathiVisagn123/CypressAPI/issues"
+  },
+  "homepage": "https://github.com/SwathiVisagn123/CypressAPI#readme",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.0"
+  }
+}
