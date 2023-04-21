@@ -10,6 +10,6 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           start: npx cypress run
-          env:
+        env:
           CYPRESS_USERNAME: ${{ secrets.USERNAME }}
           CYPRESS_PASSWORD: ${{ secrets.PASSWORD}}
