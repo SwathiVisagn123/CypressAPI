@@ -7,6 +7,7 @@ module.exports = defineConfig({
     },
     baseUrl: "https://restful-booker.herokuapp.com",
     experimentalMemoryManagement: true,
+    video: false,
   },
   env: {
     USERNAME: "",
