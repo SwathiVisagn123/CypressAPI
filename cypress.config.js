@@ -9,8 +9,4 @@ module.exports = defineConfig({
     experimentalMemoryManagement: true,
     video: false,
   },
-  env: {
-    USERNAME: "",
-    PASSWORD: "",
-  },
 });

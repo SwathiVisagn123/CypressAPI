@@ -11,5 +11,5 @@ jobs:
         with:
           start: npx cypress run
           env:
-          USERNAME: ${{ secrets.USERNAME }}
-          PASSWORD: ${{ secrets.PASSWORD}}
+          CYPRESS_USERNAME: ${{ secrets.USERNAME }}
+          CYPRESS_PASSWORD: ${{ secrets.PASSWORD}}
