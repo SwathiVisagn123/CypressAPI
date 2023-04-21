@@ -9,8 +9,8 @@ module.exports = defineConfig({
     experimentalMemoryManagement: true,
     video: false,
     env: {
-      CYPRESS_USERNAME: "",
-      CYPRESS_PASSWORD: "",
+      username: "",
+      password: "",
     },
   },
 });
