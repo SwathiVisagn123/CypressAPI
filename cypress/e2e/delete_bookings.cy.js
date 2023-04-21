@@ -9,8 +9,8 @@ describe("Get booking and delete", () => {
       method: "POST",
       url: "/auth",
       body: {
-        username: `${Cypress.env("USERNAME")}`,
-        password: `${Cypress.env("PASSWORD")}`,
+        username: `${Cypress.env("CYPRESS_USERNAME")}`,
+        password: `${Cypress.env("CYPRESS_PASSWORD")}`,
       },
     }).then((body) => {
       tokenid = body.body.token;
