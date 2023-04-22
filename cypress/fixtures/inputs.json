@@ -1,0 +1,8 @@
+{
+  "booking_Endpoint": "/booking",
+  "firstname": "Swathika",
+  "lastname": "Visagn",
+  "totalprice": 111,
+  "additional": "Breakfast",
+  "auth_Endpoint": "/auth"
+}
