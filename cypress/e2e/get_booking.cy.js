@@ -2,11 +2,17 @@ describe("get booking details", () => {
   let bookingid;
 
   before(() => {
+    cy.fixture("inputs").then(function (input) {
+      this.testdata = input;
+    });
+  });
+
+  beforeEach(function () {
     //arranging test data in a before loop to isolate the test scenario
     //get the booking id
     cy.api({
       method: "GET",
-      url: "/booking",
+      url: this.testdata.booking_Endpoint,
     }).then(({ body, status }) => {
       expect(status).to.be.eq(200);
       expect(body).to.be.a("Array");
